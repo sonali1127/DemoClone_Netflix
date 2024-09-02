@@ -26,7 +26,7 @@ body {
     top: 0;
 }
 
-.main img {
+.main .log img {
     width: 150px;
     color: red;
     position: relative;
@@ -59,22 +59,14 @@ nav {
     height: 2.43rem;
 }
 
-.material-icons {
+.trans {
     color: white;
-    font-size: 16px !important;
+    width: 18px !important;
     position: absolute;
     top: 11px;
     right: 201px;
 }
 
-.fa {
-    color: white;
-    font-size: 12px;
-    position: relative;
-    top: -1px;
-    right: 13px;
-
-}
 
 select {
     border: none;
@@ -102,6 +94,7 @@ button {
     border-radius: 0.55rem;
     font-size: 0.875rem;
     font-weight: 500;
+    border:none;
 }
 
 .red-btn {
@@ -111,6 +104,7 @@ button {
     font-size: 22px;
     border-radius: 4px;
     font-weight: 600;
+    border: none;
 }
 
 .signin {
@@ -298,11 +292,7 @@ video {
     transition: all 1s ease out;
     font-size: 24px;
 }
-
-.fa-plus {
-    font-size: 30px;
-    font-weight: 100 !important;
-}
+   
 
 .faq-box:hover {
     background-color: #414141;
@@ -340,7 +330,7 @@ footer a {
         padding-bottom: 40px;
     }
 
-    .main img {
+    .main .log img {
         padding-right: 53px;
     }
 
@@ -353,11 +343,7 @@ footer a {
         width: 4.5rem;
         padding: 10px 5px;
         font-size: 0.775rem;
-    }
-
-    .material-icons {
-        top: 7px;
-        right: 116px;
+        border:none;
     }
 
     select {
@@ -367,8 +353,12 @@ footer a {
 
     .translate {
         padding: 1px 2px 2px 5px;
-        width: 2.845rem;
+        width: 1.845rem;
         height: 1.45rem;
+    }
+    .trans {
+        top: 9px;
+    right: 107px;
     }
 }
 
@@ -381,7 +371,7 @@ footer a {
         max-width: 90vw;
     }
 
-    .main img {
+    .main .log img{
         width: 100px;
     }
 
